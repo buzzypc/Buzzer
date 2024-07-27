@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Master</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='master-styles.css') }}">
+</head>
+<body>
+  <div id="toggle-div" style="height: 100vh; width: 100vw;">
+    <audio id="buzzer-sound" src="{{ url_for('static', filename='master-buzzer.mp3') }}"
+    preload="auto"></audio>
+  </div>
+  <script>
+    let clientIp = "{{ client_ip }}";
+  </script>
+  <script src="{{ url_for('static', filename='master-script.js') }}"></script>
+</body>
+</html>

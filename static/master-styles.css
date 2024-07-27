@@ -1,0 +1,9 @@
+body {
+    background-color: #ffeda0; /* Default background color */
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  body.blue-background {
+    background-color: #ff6361;
+  }
+  
