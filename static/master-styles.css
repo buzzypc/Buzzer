@@ -3,7 +3,7 @@ body {
     /* transition: background-color 0.3s ease; */
   }
   
-  body.blue-background {
+  body.toggle-background {
     background-color: #ff6361;
   }
   
